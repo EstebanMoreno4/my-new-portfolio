@@ -1,0 +1,122 @@
+body{
+    text-align: center;
+}
+   
+.presentacion{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   align-items: center;
+   height: 100vh;
+   padding-top: 60px;
+   background: #ee9ca7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.img-1{
+    margin-top: 40px;
+}
+.fotomia{
+    border-radius: 50%;
+}
+.fotodiv{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+.parrafo-mio{
+    font-family: 'Sarabun', sans-serif;
+}
+.cosas-mias{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 10px;
+    text-align: center;
+}
+.hello{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}   
+.futbol{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.parent{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows: repeat(1, 1fr);
+        width: 50%;
+        margin: 100px auto 0 auto;
+        text-align: left;
+        row-gap: 2rem;
+    }
+.messi{
+    display: block;
+    border: solid;
+}
+.skill2{
+    display: block;
+    border: solid;
+}
+.kicks{
+    font-weight: 40px;
+    border: solid;
+    margin-left: 30px;
+}
+.futbol2{
+    font-weight: 40px;
+    border: solid;
+    margin-left: 30px;
+}
+.parrafo1{
+    margin-left: 30px;
+}
+.r8{
+    margin-left: 30;
+}
+.get-in{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.get{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 80px;
+}
+.teso{
+    font-weight: 400px;
+}
+.boton{
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    background-color: azure;
+    color: black;
+}
+.bottom-container{
+    background-color: #ee9ca7;
+    padding: 50px 0 20px;
+    margin-top: 50px;
+}
+.bottom-container>a{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+    
